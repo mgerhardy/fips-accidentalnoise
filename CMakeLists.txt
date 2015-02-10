@@ -67,8 +67,5 @@ fips_begin_lib(accidentalnoise)
 		accidental-noise-library/Noise/implicitselect.cpp
 		accidental-noise-library/Noise/implicitautocorrect.cpp
 		accidental-noise-library/Noise/implicitrgbadotproduct.cpp
-		accidental-noise-library/Volume/marchvolume.cpp
-		accidental-noise-library/Volume/anlmesh.cpp
-		accidental-noise-library/Volume/volumeadapter.cpp
 	)
 fips_end_lib()
