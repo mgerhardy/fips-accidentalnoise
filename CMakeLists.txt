@@ -68,4 +68,10 @@ fips_begin_lib(accidentalnoise)
 		accidental-noise-library/Noise/implicitautocorrect.cpp
 		accidental-noise-library/Noise/implicitrgbadotproduct.cpp
 	)
+	# hack to silence some warnings
+	#if (FIPS_MACOS)
+	#	set_target_properties(accidentalnoise PROPERTIES COMPILE_FLAGS "-Wno-sign-compare -Wno-deprecated-declarations")
+	#elseif(FIPS_LINUX)
+	#	set_target_properties(accidentalnoise PROPERTIES COMPILE_FLAGS "-Wno-sign-compare")
+	#endif()
 fips_end_lib()

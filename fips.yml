@@ -1,9 +1,12 @@
 #
-# fips-flatbuffers
+# fips-accidentalnoise
 #
 ---
 exports:
-    header-dirs: [ flatbuffers/include ]
+    header-dirs:
+        - accidental-noise-library/Imaging
+        - accidental-noise-library/Noise
+        - accidental-noise-library/RGBA
+        - accidental-noise-library/Volume
     modules :
-        flatc: .
-
+        accidentalnoise: .
