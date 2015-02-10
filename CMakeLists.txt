@@ -15,7 +15,6 @@ fips_begin_lib(accidentalnoise)
 		accidental-noise-library/RGBA/rgbargbatohsv.cpp
 		accidental-noise-library/RGBA/hsv.cpp
 		accidental-noise-library/Builder/treecontainer.cpp
-		accidental-noise-library/Bindings/Bindings.cpp
 		accidental-noise-library/Imaging/implicitbufferbumpmap.cpp
 		accidental-noise-library/Imaging/implicitbuffersimpleerode.cpp
 		accidental-noise-library/Imaging/rgbabufferrgbaadapter.cpp
