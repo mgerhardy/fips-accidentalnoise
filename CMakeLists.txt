@@ -35,6 +35,8 @@ fips_begin_lib(accidentalnoise)
 		accidental-noise-library/Imaging/implicitbufferbase.cpp
 		accidental-noise-library/Imaging/rgbabufferselect.cpp
 		accidental-noise-library/Imaging/implicitbufferscaletorange.cpp
+		accidental-noise-library/Imaging/stb_image.c
+		accidental-noise-library/Imaging/stb_image_write.c
 		accidental-noise-library/Noise/implicitcurve.cpp
 		accidental-noise-library/Noise/implicitcache.cpp
 		accidental-noise-library/Noise/implicitblend.cpp
